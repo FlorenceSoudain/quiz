@@ -3,24 +3,29 @@ header {
     flex-direction: row;
     justify-content: center;
 }
+
 h1 {
-    font-size: 5em;
+    font-size: 4em;
 }
+
 body {
     background-color: lavenderblush;
     font-family: Verdana, sans-serif;
 }
+
 #global {
     margin-left: 15%;
     margin-right: 15%;
 }
+
 #question {
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bold;
     text-align: center;
     border: dashed 5px indianred;
     padding: 2%;
 }
+
 #reponses {
     display: flex;
     flex-direction: column;
@@ -28,6 +33,7 @@ body {
     cursor: pointer;
     margin-top: 5%;
 }
+
 #reponse1, #reponse2, #reponse3 {
     font-size: 1.5em;
     padding: 2%;
@@ -42,6 +48,7 @@ body {
     text-align: center;
     font-size: 1.3em;
 }
+
 #rejouer {
     background-color: indianred;
     color: white;
@@ -51,4 +58,8 @@ body {
     font-size: 1.5em;
     margin-top: 5%;
     cursor: pointer;
+}
+
+#commentaire {
+    color: indianred;
 }

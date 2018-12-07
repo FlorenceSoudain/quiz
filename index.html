@@ -13,16 +13,27 @@
     <div id="quiz">
         <div id="question"></div>
         <div id="reponses">
-            <div id="reponse1"></div>
-            <div id="reponse2"></div>
-            <div id="reponse3"></div>
+            <div class="reponseUtilisateur" id="reponse1"></div>
+            <div class="reponseUtilisateur" id="reponse2"></div>
+            <div class="reponseUtilisateur" id="reponse3"></div>
         </div>
     </div>
     <div id="resultat">
-        <div>Vous avez terminé le quiz en <span id="temps"></span>. Vous avez <span id="bonnesReponses"></span> bonnes réponses sur <span id="total"></span>.</div>
+        <div>Vous avez terminé le quiz en <span id="temps"></span>. Vous avez <span id="bonnesReponses">0</span> bonnes
+            réponses sur <span id="total"></span>.
+        </div>
+        <p id="commentaire"></p>
         <h2>Les bonnes réponses étaient :</h2>
         <div id="questionsReponses"></div>
-        <div><button id="rejouer">Rejouer</button></div>
+        <div>
+            <h2>En savoir plus sur la bataille de Sekigahara : </h2>
+            <a href="https://fr.wikipedia.org/wiki/Bataille_de_Sekigahara" target="_blank">Wikipedia</a>
+            <a href="https://fr.japantravel.com/gifu/la-bataille-de-sekigahara/36740" target="_blank">Japan Travel</a>
+            <a href="https://shinryu.fr/592-sekigahara-no-tatakai.html" target="_blank">Shinryu</a>
+        </div>
+        <div>
+            <button id="rejouer">Rejouer</button>
+        </div>
     </div>
     <div id="chrono"></div>
 </div>
